@@ -1,29 +1,36 @@
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
+    // colors
+    // #61959E && #959E61
 
     return ( 
         <div>
-            <nav>
-                <div>
-                    HomeAway Restaurants
-                </div>
+            <nav className='bg-[#959E61]'>
+                <div className='flex justify-around items-center md:py-6'>
+                    <div>
+                        <Link to='/' className='md:text-xl text-lg font-semibold'>Home-Away Restaurants</Link>
+                    </div>
 
-                <div>
-                    <ul>
-                        <li>
-                            <Link to='/'>LandingPage</Link>
-                        </li>
-                        <li>
-                            <Link to='/aboutus'>About Us</Link>
-                        </li><li>
-                            <Link to='/menu'>Menu</Link>
-                        </li><li>
-                            <Link to='services'>Services</Link>
-                        </li><li>
-                            <Link to='contactus'>Contact Us</Link>
-                        </li>
-                    </ul>
+                    <div>
+                        <ul className='flex justify-center items-center text-lg'>
+                            <li className='md:mx-4'>
+                                <Link to='/'>Home</Link>
+                            </li>
+                            <li className='md:mx-4'>
+                                <Link to='/aboutus'>About Us</Link>
+                            </li>
+                            <li className='md:mx-4'>
+                                <Link to='/menu'>Menu</Link>
+                            </li>
+                            <li className='md:mx-4'>
+                                <Link to='services'>Services</Link>
+                            </li>
+                            <li className='md:mx-4'>
+                                <Link to='contactus'>Contact Us</Link>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
         </div>
