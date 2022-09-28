@@ -88,3 +88,11 @@ body {
 .roomMsg {
   margin-right: auto;
 }
+button {
+  background-color: #61959e;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 50px;
+  border-color: palevioletred;
+}
