@@ -30,3 +30,17 @@ body {
 .spaMessage {
   margin-right: auto;
 }
+.conference {
+  display: flex;
+  align-items: center;
+  padding-top: 5%;
+}
+.conferenceMsg {
+  margin-left: auto;
+}
+.conferenceImg {
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  height: 600px;
+}
