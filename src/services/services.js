@@ -15,10 +15,15 @@ export default function Services() {
           <h2>Welcome to our world class fitness services</h2>
           <p>we give you the best there is in fitness</p>
         </div>
-        <div className="fitness">
-          <img src={gymImage} alt="gympic" height="600" width="900" />
-        </div>
+        <img
+          className="fitness"
+          src={gymImage}
+          alt="gympic"
+          //   height="600"
+          //   width="900"
+        />
       </section>
+
       <div className="spa">
         <img className="spaImg" src={spaImage} alt="spapic" />
         <div className="spaMessage">
@@ -27,6 +32,7 @@ export default function Services() {
           <p>Where Luxury Meets Qualit</p>
         </div>
       </div>
+
       <div className="conference">
         <div className="conferenceMsg">
           <span>CONFERENCE AND CORPORATE ROOMS</span>

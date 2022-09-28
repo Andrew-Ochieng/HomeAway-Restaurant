@@ -7,10 +7,11 @@ body {
   align-items: center;
 }
 .fitness {
-  border-radius: 20px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 4%;
+  height: 600px;
+  width: 900px;
 }
 .gym {
   padding-top: 3%;
