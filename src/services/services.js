@@ -14,14 +14,10 @@ export default function Services() {
           <span>GYM $ FITNESS SERVICES </span>
           <h2>Welcome to our world class fitness services</h2>
           <p>we give you the best there is in fitness</p>
+          <hr></hr>
+          <button>Book Now</button>
         </div>
-        <img
-          className="fitness"
-          src={gymImage}
-          alt="gympic"
-          //   height="600"
-          //   width="900"
-        />
+        <img className="fitness" src={gymImage} alt="gympic" />
       </section>
 
       <div className="spa">
@@ -30,6 +26,8 @@ export default function Services() {
           <span> SPA AND MASSAGE SERVICES</span>
           <h2>welcome to a world class SPA and Massage services</h2>
           <p>Where Luxury Meets Qualit</p>
+          <hr></hr>
+          <button>Book Now</button>
         </div>
       </div>
 
@@ -38,6 +36,8 @@ export default function Services() {
           <span>CONFERENCE AND CORPORATE ROOMS</span>
           <h2>Welcome to a world class conference rooms</h2>
           <p>We give you the best Meeting environment</p>
+          <hr></hr>
+          <button>Book Now</button>
         </div>
         <img className="conferenceImg" src={conImage} alt="conferencepic" />
       </div>
@@ -48,6 +48,8 @@ export default function Services() {
           <span>POOL AND JACUZZI SERVICES</span>
           <h2>Welcome to the world's most refreshing experience </h2>
           <p>we offer the best of jacuzzi and pool experiences</p>
+          <hr></hr>
+          <button>Book Now</button>
         </div>
       </div>
 
@@ -56,6 +58,8 @@ export default function Services() {
           <span>LOUNGE SERVICES</span>
           <h2>welcome to the world's most relaxing place</h2>
           <p>We offer the best of comfort to easy your mind</p>
+          <br></br>
+          <button>Book Now</button>
         </div>
         <img className="loungeImg" src={loungeImg} alt="loungeimage" />
       </div>
@@ -66,6 +70,8 @@ export default function Services() {
           <span>ROOM SERVICES</span>
           <h2>Welcome to the world's most luxury rooms</h2>
           <p>We offer the best of beddings to make you feel at home</p>
+          <hr></hr>
+          <button>Book Now</button>
         </div>
       </div>
     </>
