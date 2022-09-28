@@ -58,7 +58,7 @@ export default function Services() {
           <span>LOUNGE SERVICES</span>
           <h2>welcome to the world's most relaxing place</h2>
           <p>We offer the best of comfort to easy your mind</p>
-          <br></br>
+          <hr></hr>
           <button>Book Now</button>
         </div>
         <img className="loungeImg" src={loungeImg} alt="loungeimage" />
@@ -68,7 +68,7 @@ export default function Services() {
         <img className="roomImg" src={roomImg} alt="roomimage" />
         <div className="roomMsg">
           <span>ROOM SERVICES</span>
-          <h2>Welcome to the world's most luxury rooms</h2>
+          <h2>Welcome to the world's most luxuriuos rooms</h2>
           <p>We offer the best of beddings to make you feel at home</p>
           <hr></hr>
           <button>Book Now</button>
