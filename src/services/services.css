@@ -44,3 +44,17 @@ body {
   width: 900px;
   height: 600px;
 }
+.pool {
+  display: flex;
+  align-items: center;
+  padding-top: 5%;
+}
+.poolImg {
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  height: 600px;
+}
+.poolMsg {
+  margin-right: auto;
+}
