@@ -4,6 +4,7 @@ import spaImage from "./service-images/spa.jpg";
 import conImage from "./service-images/conference.jpg";
 import poolImg from "./service-images/pool.jpg";
 import loungeImg from "./service-images/lounge.jpg";
+import roomImg from "./service-images/room.jpg";
 
 export default function Services() {
   return (
@@ -51,6 +52,15 @@ export default function Services() {
           <p>We offer the best of comfort to easy your mind</p>
         </div>
         <img className="loungeImg" src={loungeImg} alt="loungeimage" />
+      </div>
+
+      <div className="rooms">
+        <img className="roomImg" src={roomImg} alt="roomimage" />
+        <div className="roomMsg">
+          <span>ROOM SERVICES</span>
+          <h2>Welcome to the world's most luxury rooms</h2>
+          <p>We offer the best of beddings to make you feel at home</p>
+        </div>
       </div>
     </>
   );

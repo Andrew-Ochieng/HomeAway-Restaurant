@@ -72,3 +72,18 @@ body {
 .loungeMsg {
   margin-left: auto;
 }
+.rooms {
+  display: flex;
+  align-items: center;
+  padding-top: 5%;
+  padding-bottom: 7%;
+}
+.roomImg {
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  height: 600px;
+}
+.roomMsg {
+  margin-right: auto;
+}
