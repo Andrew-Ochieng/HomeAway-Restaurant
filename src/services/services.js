@@ -25,7 +25,7 @@ export default function Services() {
         <div className="spaMessage">
           <span> SPA AND MASSAGE SERVICES</span>
           <h2>welcome to a world class SPA and Massage services</h2>
-          <p>Where Luxury Meets Qualit</p>
+          <p>Where Luxury Meets Quality</p>
           <hr></hr>
           <button>Book Now</button>
         </div>
