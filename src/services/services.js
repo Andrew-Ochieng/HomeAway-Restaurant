@@ -6,6 +6,10 @@ import poolImg from "./service-images/pool.jpg";
 import loungeImg from "./service-images/lounge.jpg";
 import roomImg from "./service-images/room.jpg";
 
+function handleClick() {
+  return alert(" under development !! it will be available soon!!");
+}
+
 export default function Services() {
   return (
     <>
@@ -15,7 +19,7 @@ export default function Services() {
           <h2>Welcome to our world class fitness services</h2>
           <p>we give you the best there is in fitness</p>
           <hr></hr>
-          <button>Book Now</button>
+          <button onClick={handleClick}>Book Now</button>
         </div>
         <img className="fitness" src={gymImage} alt="gympic" />
       </section>
@@ -27,7 +31,7 @@ export default function Services() {
           <h2>welcome to a world class SPA and Massage services</h2>
           <p>Where Luxury Meets Quality</p>
           <hr></hr>
-          <button>Book Now</button>
+          <button onClick={handleClick}>Book Now</button>
         </div>
       </div>
 
@@ -37,7 +41,7 @@ export default function Services() {
           <h2>Welcome to a world class conference rooms</h2>
           <p>We give you the best Meeting environment</p>
           <hr></hr>
-          <button>Book Now</button>
+          <button onClick={handleClick}>Book Now</button>
         </div>
         <img className="conferenceImg" src={conImage} alt="conferencepic" />
       </div>
@@ -49,7 +53,7 @@ export default function Services() {
           <h2>Welcome to the world's most refreshing experience </h2>
           <p>we offer the best of jacuzzi and pool experiences</p>
           <hr></hr>
-          <button>Book Now</button>
+          <button onClick={handleClick}>Book Now</button>
         </div>
       </div>
 
@@ -59,7 +63,7 @@ export default function Services() {
           <h2>welcome to the world's most relaxing place</h2>
           <p>We offer the best of comfort to easy your mind</p>
           <hr></hr>
-          <button>Book Now</button>
+          <button onClick={handleClick}>Book Now</button>
         </div>
         <img className="loungeImg" src={loungeImg} alt="loungeimage" />
       </div>
@@ -71,7 +75,7 @@ export default function Services() {
           <h2>Welcome to the world's most luxuriuos rooms</h2>
           <p>We offer the best of beddings to make you feel at home</p>
           <hr></hr>
-          <button>Book Now</button>
+          <button onClick={handleClick}>Book Now</button>
         </div>
       </div>
     </>
