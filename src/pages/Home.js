@@ -2,6 +2,7 @@ import About from "../components/About";
 import Hero from "../components/Hero";
 import Popular from "../components/Popular";
 import Subscribe from "../components/Subscribe";
+import TestimonialCard from "../components/TestimonialCard";
 
 const LandingPage = () => {
     return ( 
@@ -12,6 +13,8 @@ const LandingPage = () => {
             <div className="flex justify-center items-center">
                 <Subscribe />
             </div>
+
+            <TestimonialCard />
         </div>
      );
 }
