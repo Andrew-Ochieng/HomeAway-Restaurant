@@ -3,7 +3,7 @@
 const Footer = () => {
     return ( 
         <div className="bg-[#959E61] md:px-16 px-8 md:py-16 py-8">
-            <div className="md:flex md:justify-between justify-between items-center">
+            <div className="md:flex md:justify-between justify-between items-center md:space-y-0 space-y-8">
                 <div className="md:w-1/4 w-full">
                     <h1 className="md:text-2xl text-xl font-semibold">Home-Away</h1>
                     <p className="my-2">
@@ -11,10 +11,10 @@ const Footer = () => {
                         addition to light refreshments from baked foods or snacks.
                     </p>
                     <div className="flex  md:text-2xl text-lg text-gray-800">
-                        <i class="hover:text-white mr-2 fa fa-whatsapp"></i>
-                        <i class="hover:text-white mx-2 fa fa-facebook"></i>
-                        <i class="hover:text-white mx-2 fa fa-instagram"></i>
-                        <i class="hover:text-white mx-2 fa fa-linkedin"></i>
+                        <i class="hover:text-white sm:mr-2 mr-1 fa fa-whatsapp"></i>
+                        <i class="hover:text-white sm:mx-2 mx-1 fa fa-facebook"></i>
+                        <i class="hover:text-white sm:mx-2 mx-1 fa fa-instagram"></i>
+                        <i class="hover:text-white sm:mx-2 mx-1 fa fa-linkedin"></i>
                     </div>
                 </div>
 
