@@ -12,3 +12,50 @@ body {
 @tailwind components;
 @tailwind utilities;
 
+h1 {
+  font-size: 1cm;
+  text-align: center;
+  padding-right: 5cm;
+
+ 
+}
+img {
+  height: 10cm;
+  width: 20cm;
+  align-self: center;
+  padding-left: 6cm;
+  size: 5cm;
+
+
+}
+button{
+  background-color: rgb(218, 22, 133);
+}
+h2{
+  padding-left: 10cm;
+  font-size: 2cm;
+  padding-top: 1cm;
+  font-family: Georgia, 'Times New Roman', Times, serif
+  
+}
+body{
+  background-color: #61959e;
+  padding: 2cm;
+}
+*{
+  align-items: center;
+}
+p{
+  font-size: 0.5cm;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+h1{
+  padding-right: 12cm;
+  font-size: 2cm;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+h3{
+  font-size: 2cm;
+  padding-right: 12cm;
+  font-family: Georgia, 'Times New Roman', Times, serif}
+
