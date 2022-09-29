@@ -1,9 +1,7 @@
-const Menu = () => {
+export default function Menu(){
     return ( 
         <div>
             Menu page
         </div>
      );
 }
- 
-export default Menu;
