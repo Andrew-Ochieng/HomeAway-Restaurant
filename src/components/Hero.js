@@ -7,16 +7,16 @@ const Hero = () => {
             <div className="md:my-16 my-8 xl:mx-32  sm:mx-12 mx-6">
                 <div className="flex flex-row justify-around">
                     <div>
-                        <h1 className="md:text-6xl font-semibold text-[#61959E]">
+                        <h1 className="lg:text-6xl md:text-4xl text-2xl font-semibold text-[#61959E]">
                             We Serve the Taste You Love 😊
                         </h1>
-                        <p className="my-4 md:text-2xl text-gray-800"> 
+                        <p className="my-4 lg:text-2xl sm:text-xl  text-gray-800"> 
                             This is a type of restaurant which typically serves food and drinks, in addition
                             to light refreshments such as baked goods or snacks. The term comes from the italian word meaning 
                             <span className="text-[#959E61] mx-1">home away from home</span>
                         </p>
-                        <div className="my-4">
-                            <button className="md:mr-4 my-2 px-4 py-3 bg-[#61959E] text-white rounded-full">
+                        <div className="my-4 md:flex items-center">
+                            <button className="lg:mr-4 my-2 px-4 py-3 bg-[#61959E] text-white rounded-full">
                                 Explore Foods
                             </button>
                             <input 
