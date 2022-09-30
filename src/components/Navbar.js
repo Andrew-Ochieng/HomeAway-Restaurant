@@ -1,13 +1,13 @@
 import { Link } from 'react-router-dom'
-import { useState } from 'react';
+// import { useState } from 'react';
 // #61959E && #959E61
 const Navbar = () => {
     // toggle navbar
-    const [menu, setMenu] = useState("")
+    // const [menu, setMenu] = useState("")
     
-    function showMenu() {
+    // function showMenu() {
         
-    }
+    // }
 
 
     return ( 
