@@ -18,7 +18,7 @@ const Navbar = () => {
                         <Link to='/' className='md:text-2xl text-xl font-semibold'>Home-Away</Link>
                     
                         <button id="hambuger" class="md:hidden text-2xl">
-                            <i onclick={showMenu} class="fa fa-bars cursor-pointer"></i>
+                            <i onclick="showMenu()" class="fa fa-bars cursor-pointer"></i>
                         </button>
 
                         <button id="times" class="text-2xl hidden">
