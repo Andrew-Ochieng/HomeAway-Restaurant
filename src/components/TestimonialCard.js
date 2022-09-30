@@ -25,9 +25,9 @@ const TestimonialCard = () => {
                     {
                         testimonials.map((testimonial) => (
                             <div className="bg-gray-200 md:p-8 p-4 rounded-xl">
-                                <p>{testimonial.content}</p>
-                                <img className="rounded-full md:w-32 w-16 my-2" src={testimonial.clientImage} alt="" />
-                                <h2>{testimonial.clientName}</h2>
+                                <p className="md:text-xl text-lg">" {testimonial.content} "</p>
+                                <img className="rounded-full md:w-44 w-24 md:my-4 my-2" src={testimonial.clientImage} alt="" />
+                                <h2 className="md:text-xl text-lg font-medium text-[#2e9fb3]">{testimonial.clientName}</h2>
                             </div>
                         ))
                     }
